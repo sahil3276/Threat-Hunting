@@ -1,3 +1,8 @@
+- Threat Hunting is Proactive Technique, where Hunter uses `Hypothesis based approach` (assumed breach) and start hunting based on TTP used by APT groups and Malicious actors, 
+- so below are the example what happens in each phase of attack, like what attacker might have done and what hunters can do
+- 2. we `look for IOCs and IOAs` : Indicators of Compromise and Indicator of Attacks -- so recent attacks related IOCs (Packages, IP address, Hashes and more) we look into our company environment to decide whether we are compromised or not
+- 3. We use tools look for anamlous activities like data encryption, file modification, data exfilteration, User account creation, Privilege escalation, Lolbins misuse etc
+
 # Ransomware Lifecycle — Threat Hunting Interview Notes
 
 > **Not a fixed sequence:** Phases overlap; exfiltration often precedes encryption. Defense evasion can occur throughout. Some attacks steal data without encrypting it.
